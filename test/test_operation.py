@@ -1,9 +1,9 @@
-from src.math_operations import add,substract
+from src.math_operations import add,subtract
 
 def test_add():
-        assert(2,3)==5
-        assert(-1,1)==0
+        assert add(2,3)==5
+        assert add(-1,1)==0
 def test_subtract():
-        assert(2,3)==-1
-        assert(-1,1)==-2
+        assert subtract(2,3)==-1
+        assert subtract(-1,1)==-2
         
